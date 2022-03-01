@@ -1,6 +1,7 @@
 # LaTeX output artefacts
 main.log
 main.aux
+texput.log
 
 # node artefacts
 node_modules

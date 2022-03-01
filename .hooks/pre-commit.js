@@ -2,9 +2,9 @@
 const { run, finish } = require('./utils');
 
 run({
-  title: 'Running formatter...',
-  command: 'cargo',
-  args: ['+nightly fmt -- --check'],
+  title: 'Running project build...',
+  command: 'pdflatex',
+  args: ['main.tex'],
 });
 
 finish();
