@@ -1,4 +1,3 @@
-% \usepackage{fullpage}
 \usepackage{color}
 \usepackage{amsmath}
 \usepackage{url}
@@ -6,14 +5,21 @@
 \usepackage{graphicx}
 \usepackage{parskip}
 \usepackage{amssymb}
-% \usepackage{nicefrac}
 \usepackage{listings} % For displaying code
-% \usepackage{algorithm2e} % pseudo-code
 \usepackage[english]{babel}
 \usepackage{centernot}
 \usepackage{fancyhdr}
 \usepackage{amsfonts,amssymb,amsthm}
 \usepackage[paper=letterpaper,left=25mm,right=25mm,top=3cm,bottom=25mm]{geometry}
+
+\pagestyle{fancy}
+\lhead{...header-left...}
+\chead{...header-center...\hw}
+\rhead{...header-right...\mynumber...}
+
+\lfoot{\myname}
+\cfoot{Page \thepage}
+\rfoot{\mynumber}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{definition}{Definition}
