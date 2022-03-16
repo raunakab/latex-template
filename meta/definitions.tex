@@ -21,12 +21,10 @@
 \def\C{\mathbb{C}}
 \def\N{\mathbb{N}}
 \def\Z{\mathbb{Z}}
-% \def\rank{\text{rank}}
 \def\columns{\text{columns}}
 \def\nul{\text{null}}
 \def\spann{\text{span}}
 \def\dom{\text{dom}}
-% \def\Range{\text{rng}}
 \def\transpose{\text{tr}}
 \def\dim{\text{dim}}
 \def\Self{\text{Self}}
@@ -37,17 +35,17 @@
 \newcommand{\alignStar}[1]{\begin{align*}#1\end{align*}}
 \def\half{\frac 1 2}
 
+% relations
+\DeclareMathOperator\Rel{\mathcal{R}}
+
 % lin.alg.
 \DeclareMathOperator\Range{Range}
 \DeclareMathOperator\Null{Null}
 \DeclareMathOperator\rank{rank}
-% \DeclareMathOperator\argmin{arg\,min}
 
 % complex numbers
 \def\Arg{\text{Arg}}
 \def\Re{\text{Re}}
-% \def\Im{\text{Im}}
-% \DeclareMathOperator\I{\mathbb{I}}
 \def\conj{\text{conj}}
 \def\neighbourhood{\mathcal{N}}
 \DeclareMathOperator\Log{Log}
@@ -70,11 +68,8 @@
 \theoremstyle{definition}
 \newtheorem{pb}{Problem}
 
+% misc
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
 \newcommand{\set}[1]{\left\{ #1 \right\}}
-% \renewcommand{\neg}{\sim}
-
-% language-design
-% \DeclareMathOperator\check{check}
